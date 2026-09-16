@@ -1,0 +1,8 @@
+ARG BASE_IMAGE
+FROM ${BASE_IMAGE}
+
+ARG SOURCE_REPOSITORY
+LABEL org.opencontainers.image.source=${SOURCE_REPOSITORY} \
+      org.opencontainers.image.title="DVLAA AWDP07 Open WebUI" \
+      org.opencontainers.image.description="Open WebUI v0.1.116 source build for the DVLAA AWDP07 training environment" \
+      org.opencontainers.image.version="v0.1.116"
